@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #2c2c2c; /* Un fondo oscuro para que la imagen resalte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Un tipo de letra básico */
+}
+
+.image-container {
+    max-width: 90%;
+    max-height: 90vh; /* Usa el 90% de la altura de la ventana */
+    display: flex; /* Para centrar la imagen dentro del contenedor si es más pequeña */
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    display: block; /* Elimina espacios extra debajo de la imagen */
+    border-radius: 8px; /* Opcional: añade bordes redondeados */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Opcional: añade una sombra para darle profundidad */
+}
